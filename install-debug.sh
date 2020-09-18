@@ -1152,6 +1152,7 @@ if [[ ("$rem_coins" == "y" || "$rem_coins" == "Y" || "$rem_coins" == "") ]]; the
     sudo yiimp coin JIF delete
     sudo yiimp coin EVIL delete
     sudo yiimp coin EVO delete
+    sudo yiimp coin LTC delete
     sudo yiimp coin LTCR delete
     sudo yiimp coin SANDG delete
     sudo yiimp coin RICHX delete
