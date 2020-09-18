@@ -2217,32 +2217,32 @@ if [[ ("$rem_coins" == "y" || "$rem_coins" == "Y" || "$rem_coins" == "") ]]; the
     sudo echo "sudo yiimp coin LBA delete" >> /etc/rem_coins.sh
     sudo echo "sudo yiimp coin JNT delete" >> /etc/rem_coins.sh
     sudo echo "sudo yiimp coin USDS delete" >> /etc/rem_coins.sh
-    sudo sudo echo "sudo yiimp coin SOLVE delete" >> /etc/rem_coins.sh
-    sudo sudo echo "sudo yiimp coin NCASH delete" >> /etc/rem_coins.sh
-    sudo sudo echo "sudo yiimp coin XNK delete" >> /etc/rem_coins.sh
-    sudo sudo echo "sudo yiimp coin IOST delete" >> /etc/rem_coins.sh
-    sudo sudo echo "sudo yiimp coin BSV delete" >> /etc/rem_coins.sh
-    sudo sudo echo "sudo yiimp coin ZEN delete" >> /etc/rem_coins.sh
-    sudo sudo echo "sudo yiimp coin GNO delete" >> /etc/rem_coins.sh
-    sudo sudo echo "sudo yiimp coin RLC delete" >> /etc/rem_coins.sh
-    sudo sudo echo "sudo yiimp coin WINGS delete" >> /etc/rem_coins.sh
-    sudo sudo echo "sudo yiimp coin MORE delete" >> /etc/rem_coins.sh
-    sudo sudo echo "sudo yiimp coin SBD delete" >> /etc/rem_coins.sh
-    sudo sudo echo "sudo yiimp coin WAVES delete" >> /etc/rem_coins.sh
-    sudo sudo echo "sudo yiimp coin IOTX delete" >> /etc/rem_coins.sh
-    sudo sudo echo "sudo yiimp coin VITE delete" >> /etc/rem_coins.sh
-    sudo sudo echo "sudo yiimp coin DRGN delete" >> /etc/rem_coins.sh
-    sudo sudo echo "sudo yiimp coin BTM delete" >> /etc/rem_coins.sh
-    sudo sudo echo "sudo yiimp coin QNT delete" >> /etc/rem_coins.sh
-    sudo sudo echo "sudo yiimp coin ELF delete" >> /etc/rem_coins.sh
-    sudo sudo echo "sudo yiimp coin BTU delete" >> /etc/rem_coins.sh
-    sudo sudo echo "sudo yiimp coin DRGN delete" >> /etc/rem_coins.sh
-    sudo sudo echo "sudo yiimp coin BTT delete" >> /etc/rem_coins.sh
-    sudo sudo echo "sudo yiimp coin SPND delete" >> /etc/rem_coins.sh
-    sudo sudo echo "sudo yiimp coin \\$\\$\\$ delete" >> /etc/rem_coins.sh
-    sudo sudo echo "sudo yiimp coin \\$""MINEZ delete" >> /etc/rem_coins.sh
-    sudo sudo echo "sudo yiimp coin \\$""MINEW delete" >> /etc/rem_coins.sh
-    sudo sudo echo "sudo yiimp coin \\$""MINE delete" >> /etc/rem_coins.sh
+    sudo echo "sudo yiimp coin SOLVE delete" >> /etc/rem_coins.sh
+    sudo echo "sudo yiimp coin NCASH delete" >> /etc/rem_coins.sh
+    sudo echo "sudo yiimp coin XNK delete" >> /etc/rem_coins.sh
+    sudo echo "sudo yiimp coin IOST delete" >> /etc/rem_coins.sh
+    sudo echo "sudo yiimp coin BSV delete" >> /etc/rem_coins.sh
+    sudo echo "sudo yiimp coin ZEN delete" >> /etc/rem_coins.sh
+    sudo echo "sudo yiimp coin GNO delete" >> /etc/rem_coins.sh
+    sudo echo "sudo yiimp coin RLC delete" >> /etc/rem_coins.sh
+    sudo echo "sudo yiimp coin WINGS delete" >> /etc/rem_coins.sh
+    sudo echo "sudo yiimp coin MORE delete" >> /etc/rem_coins.sh
+    sudo echo "sudo yiimp coin SBD delete" >> /etc/rem_coins.sh
+    sudo echo "sudo yiimp coin WAVES delete" >> /etc/rem_coins.sh
+    sudo echo "sudo yiimp coin IOTX delete" >> /etc/rem_coins.sh
+    sudo echo "sudo yiimp coin VITE delete" >> /etc/rem_coins.sh
+    sudo echo "sudo yiimp coin DRGN delete" >> /etc/rem_coins.sh
+    sudo echo "sudo yiimp coin BTM delete" >> /etc/rem_coins.sh
+    sudo echo "sudo yiimp coin QNT delete" >> /etc/rem_coins.sh
+    sudo echo "sudo yiimp coin ELF delete" >> /etc/rem_coins.sh
+    sudo echo "sudo yiimp coin BTU delete" >> /etc/rem_coins.sh
+    sudo echo "sudo yiimp coin DRGN delete" >> /etc/rem_coins.sh
+    sudo echo "sudo yiimp coin BTT delete" >> /etc/rem_coins.sh
+    sudo echo "sudo yiimp coin SPND delete" >> /etc/rem_coins.sh
+    sudo echo "sudo yiimp coin \\$\\$\\$ delete" >> /etc/rem_coins.sh
+    sudo echo "sudo yiimp coin \\$""MINEZ delete" >> /etc/rem_coins.sh
+    sudo echo "sudo yiimp coin \\$""MINEW delete" >> /etc/rem_coins.sh
+    sudo echo "sudo yiimp coin \\$""MINE delete" >> /etc/rem_coins.sh
     echo "./etc/rem_coins.sh" >> /etc/rc.local
     echo "cp /etc/rc.local.backup /etc/rc.local" >> /etc/rc.local
     echo
