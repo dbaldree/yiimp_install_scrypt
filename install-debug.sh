@@ -56,6 +56,8 @@
 
     #make post install script writeable
     sudo chmod +x POST-install-fixes.sh
+    #store current path 
+    mypath=$(pwd)
     
     # Update package and Upgrade Ubuntu
     echo
@@ -707,7 +709,7 @@
     sleep 3
     
     sudo apt -y install letsencrypt
-    sudo letsencrypt certonly -a webroot --webroot-path=/var/web --email "$EMAIL" --agree-tos -d "$server_name" -d www."$server_name"
+    sudo letsencrypt certonly -a webroot --webroot-path=/var/web --email "$EMAIL" --agree-tos -d "$server_name"
     sudo rm /etc/nginx/sites-available/$server_name.conf
     sudo openssl dhparam -out /etc/ssl/certs/dhparam.pem 2048
     # I am SSL Man!
@@ -735,7 +737,7 @@
         }
             listen 443 ssl http2;
             listen [::]:443 ssl http2;
-            server_name '"${server_name}"' www.'"${server_name}"';
+            server_name '"${server_name}"';
         
             root /var/www/'"${server_name}"'/html/web;
             index index.php;
@@ -1118,15 +1120,15 @@
 
 
 if [[ ("$rem_coins" == "y" || "$rem_coins" == "Y" || "$rem_coins" == "") ]]; then
-   
+    
     # Removing default coins (except Bitcoin - must leave one)
     echo
-    echo -e "Removing default coins (except Bitcoin - must leave one) on next boot";
+    echo -e "$CYAN => Removing default coins (except Bitcoin - must leave one) on next boot $COL_RESET"
     echo
     # will have to remove the $$$ ones from mysql manually
         # check for rc.local - make one if not present
         FILE="/etc/rc.local";
-        FILE2="Fixes/rem_coins.sh";
+        FILE2="$mypath/rem_coins.sh";
         FILE3="/etc/rem_coins.sh";
         if test -f "$FILE"; then
                 sudo cp /etc/rc.local /etc/rc.local.backup;
@@ -1141,7 +1143,7 @@ if [[ ("$rem_coins" == "y" || "$rem_coins" == "Y" || "$rem_coins" == "") ]]; the
     sudo bash -c 'echo "/etc/rem_coins.sh" >> /etc/rc.local';
     sudo bash -c 'echo "cp /etc/rc.local.backup /etc/rc.local" >> /etc/rc.local';
     echo
-    echo -e "Default coin removal completed!"
+    echo -e "<--Default coin removal completed!"    
     echo
 fi
 
@@ -1153,7 +1155,7 @@ fi
     echo
     echo
     echo -e "$GREEN***************************$COL_RESET"
-    echo -e "$GREEN Yiimp Install Script v0.2 $COL_RESET"
+    echo -e "$GREEN Yiimp Install Script v1.1 $COL_RESET"
     echo -e "$GREEN Finish !!! $COL_RESET"
     echo -e "$GREEN***************************$COL_RESET"
     echo 
@@ -1172,12 +1174,11 @@ fi
     echo -e "$CYAN Please make sure to change your public keys / wallet addresses in the /var/web/serverconfig.php file. $COL_RESET"
     echo -e "$CYAN Please make sure to change your private keys in the /etc/yiimp/keys.php file. $COL_RESET"
     echo
-    echo -e "$CYAN TUTO Youtube : https://www.youtube.com/watch?v=qE0rhfJ1g2k $COL_RESET"
     echo -e "$CYAN Xavatar WebSite : https://www.xavatar.com $COL_RESET"
     echo
     echo
     echo -e "$RED***************************************************$COL_RESET"
-    echo -e "$RED YOU MUST REBOOT NOW  TO FINALIZE INSTALLATION !!! $COL_RESET"
+    echo -e "$RED YOU MUST REBOOT NOW  TO FINALISE INSTALLATION !!! $COL_RESET"
     echo -e "$RED***************************************************$COL_RESET"
     echo
     echo
