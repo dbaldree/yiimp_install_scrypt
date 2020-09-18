@@ -72,9 +72,11 @@ Finish !
 
 **This install script will get you 95% ready to go with yiimp. There are a few things you need to do after the main install is finished.**
 
-While I did add some server security to the script, it is every server owners responsibility to fully secure their own servers. After the installation you will still need to customise your serverconfig.php file to your liking, add your API keys, and build/add your coins to the control panel. 
+Whilst every contributer has no doubt added server security enhancements to the script, it is still every server owner's responsibility to fully secure their environment. 
 
-There will be several wallets already in yiimp. These have nothing to do with the installation script and are from the database import from the yiimp github. 
+After the installation you will still need to customise your serverconfig.php file to your liking, add your API keys, and build/add your coins to the control panel. 
+
+If you did not chose the option to remove default coins there will be a long list of coins visible in the console. These have nothing to do with the installation script and are from the database import from the yiimp github. 
 
 If you need further assistance we have a small but growing discord channel at https://discord.gg/T.B.C.
 
