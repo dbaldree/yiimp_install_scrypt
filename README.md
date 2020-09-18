@@ -2,12 +2,17 @@
 # Yiimp_install_scrypt v1.1 (update SynergyTCS, 2020)
 
 Site : https://pool.baddcoin.org
+
 https://github.com/synergytcs/yiimp_install_scrypt
+
 Discord : T.B.C.
 
 Official Yiimp (used in this script for Yiimp Installation): https://github.com/tpruvot/yiimp
+
 Modified Yiimp Installer (used in this script): https://github.com/xavatar/yiimp_install_scrypt.git
+
 Original Yiimp Installer : https://github.com/cryptopool-builders/multipool_original_yiimp_installer
+
 *****************************************************************************************************
 
 ## Install script for yiimp on Ubuntu Server 18.04 (use Tpruvot's Yiimp)
