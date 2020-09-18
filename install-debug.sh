@@ -670,7 +670,7 @@
         }
         listen 80;
         listen [::]:80;
-        server_name '"${server_name}"' www.'"${server_name}"';
+        server_name '"${server_name}"';
         root "/var/www/'"${server_name}"'/html/web";
         index index.html index.htm index.php;
         charset utf-8;
