@@ -19,6 +19,10 @@ Original Yiimp Installer : https://github.com/cryptopool-builders/multipool_orig
 
 USE THIS SCRIPT ON FRESH INSTALL UBUNTU Server 18.04 -- do not use 20.x or 16.04! -- do not use root
 
+###### :bangbang: **IMPORTANT** : 
+- **/etc/apt/sources.list :** check your atp sources as 18.04 may have updated to the 'focal' release. If so you need to change it back to 'bionic'.
+- sudo sed -i 's/focal/bionic/g' /etc/apt/sources.list
+
 Create your Pool user account:
 - adduser mypooluser
 - adduser mypooluser sudo
