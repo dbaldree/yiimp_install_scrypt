@@ -65,6 +65,7 @@ If you are issue after installation (nginx,mariadb... not found), use this scrip
 - Install Fail2ban
 - Install UFW and configure ports
 - Install LetsEncrypt SSL
+- Optional remove all the pre-configured coins
 
 ***********************************
 
