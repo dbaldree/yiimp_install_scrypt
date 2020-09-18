@@ -17,7 +17,10 @@ Original Yiimp Installer : https://github.com/cryptopool-builders/multipool_orig
 
 ## Install script for yiimp on Ubuntu Server 18.04 (use Tpruvot's Yiimp)
 
-USE THIS SCRIPT ON FRESH INSTALL UBUNTU Server 18.04 -- do not use 20.x or 16.04! -- do not use root
+###### :bangbang: **IMPORTANT** : 
+- USE THIS SCRIPT ON FRESH INSTALL UBUNTU Server 18.04 -- do not use 20.x or 16.04! -- do not use root
+- INSTALL YIIMP **BEFORE** INSTALLING YOUR COIN DEAMON & DEPENDENCIES
+
 
 Create your Pool user account:
 - adduser mypooluser
