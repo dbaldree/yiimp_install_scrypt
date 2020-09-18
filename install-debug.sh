@@ -54,6 +54,9 @@
     sleep 3
 
 
+    #make post install script writeable
+    sudo chmod +x POST-install-fixes.sh
+    
     # Update package and Upgrade Ubuntu
     echo
     echo
