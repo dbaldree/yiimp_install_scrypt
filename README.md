@@ -9,7 +9,7 @@ Discord : T.B.C.
 
 Official Yiimp (used in this script for Yiimp Installation): https://github.com/tpruvot/yiimp
 
-Modified Yiimp Installer (used in this script): https://github.com/xavatar/yiimp_install_scrypt.git
+Modified Yiimp Installer (used and adapted in this script): https://github.com/xavatar/yiimp_install_scrypt.git
 
 Original Yiimp Installer : https://github.com/cryptopool-builders/multipool_original_yiimp_installer
 
