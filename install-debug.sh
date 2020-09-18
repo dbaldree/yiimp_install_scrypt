@@ -1130,7 +1130,7 @@ if [[ ("$rem_coins" == "y" || "$rem_coins" == "Y" || "$rem_coins" == "") ]]; the
     # will have to remove the $$$ ones from mysql manually
         # check for rc.local - make one if not present
         FILE="/etc/rc.local";
-        FILE2="$mypath/rem_coins.sh";
+        FILE2="$mypath/Fixes/rem_coins.sh";
         FILE3="/etc/rem_coins.sh";
         if test -f "$FILE"; then
                 sudo cp /etc/rc.local /etc/rc.local.backup;
