@@ -1138,7 +1138,7 @@ if [[ ("$rem_coins" == "y" || "$rem_coins" == "Y" || "$rem_coins" == "") ]]; the
         fi
     sudo cp "$FILE2" "$FILE3";
     sudo chmod +x "$FILE3";
-    sudo bash -c 'echo "./etc/rem_coins.sh" >> /etc/rc.local';
+    sudo bash -c 'echo "/etc/rem_coins.sh" >> /etc/rc.local';
     sudo bash -c 'echo "cp /etc/rc.local.backup /etc/rc.local" >> /etc/rc.local';
     echo
     echo -e "Default coin removal completed!"
