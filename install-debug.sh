@@ -2227,10 +2227,7 @@ if [[ ("$rem_coins" == "y" || "$rem_coins" == "Y" || "$rem_coins" == "") ]]; the
     sudo yiimp coin DRGN delete
     sudo yiimp coin BTT delete
     sudo yiimp coin SPND delete
-    sudo yiimp coin $$$ delete
-    sudo yiimp coin $MINEZ delete
-    sudo yiimp coin $MINEW delete
-    sudo yiimp coin $MINE delete
+
     echo
     echo -e "Default coin removal completed!"
     echo
