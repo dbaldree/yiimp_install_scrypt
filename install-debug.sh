@@ -1125,7 +1125,14 @@ if [[ ("$rem_coins" == "y" || "$rem_coins" == "Y" || "$rem_coins" == "") ]]; the
     echo
     sleep 3
     # will have to remove the $$$ ones from mysql manually
-	sudo cp /etc/rc.local /etc/rc.local.backup
+	# check for rc.local - make one if not present
+	FILE=/etc/rc.local
+	if test -f "$FILE"; then
+		sudo cp /etc/rc.local /etc/rc.local.backup
+	else
+		sudo touch /etc/rc.local
+		sudo chmod root:root /etc/rc.local
+	fi
     echo "sudo yiimp coin UNF delete" > /etc/rem_coins.sh
     echo "sudo yiimp coin DES delete" >> /etc/rem_coins.sh
     echo "sudo yiimp coin KUMA delete" >> /etc/rem_coins.sh
