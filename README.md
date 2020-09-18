@@ -17,14 +17,15 @@ Original Yiimp Installer : https://github.com/cryptopool-builders/multipool_orig
 
 ## Install script for yiimp on Ubuntu Server 18.04 (use Tpruvot's Yiimp)
 
-USE THIS SCRIPT ON FRESH INSTALL UBUNTU Server 18.04 !
+USE THIS SCRIPT ON FRESH INSTALL UBUNTU Server 18.04 -- do not use 20.x or 16.04!
 
 Create your Pool user account:
 - adduser baddpool
 - adduser baddpool sudo
 - usermod -a -G sudo baddpool
 
-Connect on your VPS =>
+Prepare the environment and clone the git repositories:
+Run the debug version of the installer:
 - apt update
 - apt upgrade
 - reboot
@@ -41,7 +42,6 @@ Finish !
 - Go http://xxx.xxx.xxx.xxx or https://xxx.xxx.xxx.xxx (if you have chosen LetsEncrypt SSL). Enjoy !
 - Go http://xxx.xxx.xxx.xxx/AdminPanel or https://xxx.xxx.xxx.xxx/AdminPanel to access Panel Admin
 
-If you are issue after installation (nginx,mariadb... not found), use this script : bash install-debug.sh (watch the log during installation)
 
 ###### :bangbang: **YOU MUST UPDATE THE FOLLOWING FILES :**
 - **/var/web/serverconfig.php :** update this file to include your public ip (line = YAAMP_ADMIN_IP) to access the admin panel (Put your PERSONAL IP, NOT the IP of your VPS). update with public keys from exchanges. update with other information specific to your server..
@@ -56,9 +56,9 @@ If you are issue after installation (nginx,mariadb... not found), use this scrip
 
 ***********************************
 
-###### This script has an interactive beginning and will ask for the following information :
+###### This script is interactive thus will ask you for the following information :
 
-- Server Name (no http:// or www !!!!! Example : crypto.com OR pool.crypto.com OR 80.41.52.63)
+- Server Name (no http:// no www !!!!! Example : crypto.com OR pool.crypto.com OR 80.41.52.63)
 - Are you using a subdomain (mypoolx11.crypto.com)
 - Enter support email
 - Set stratum to AutoExchange
