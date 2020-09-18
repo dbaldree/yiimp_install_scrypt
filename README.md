@@ -35,7 +35,7 @@ Run the debug version of the installer:
 - cd yiimp_install_scrypt/
 - sudo chmod +x install-debug.sh
 - bash install_debug.sh (DO NOT RUN THE SCRIPT AS ROOT or SUDO)
-- At the end, you MUST REBOOT to finalize installation...
+- At the end, you MUST REBOOT to finalise installation...
 
 Finish !
 - Go http://xxx.xxx.xxx.xxx or https://xxx.xxx.xxx.xxx (if you have chosen LetsEncrypt SSL). Enjoy !
