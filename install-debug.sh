@@ -1121,18 +1121,18 @@ if [[ ("$rem_coins" == "y" || "$rem_coins" == "Y" || "$rem_coins" == "") ]]; the
    
     # Removing default coins (except Bitcoin - must leave one)
     echo
-    echo -e "Removing default coins (except Bitcoin - must leave one) on next boot"
+    echo -e "Removing default coins (except Bitcoin - must leave one) on next boot";
     echo
-    sleep 3
     # will have to remove the $$$ ones from mysql manually
-	# check for rc.local - make one if not present
-	FILE=/etc/rc.local
-	if test -f "$FILE"; then
-		sudo cp /etc/rc.local /etc/rc.local.backup
-	else
-		sudo touch /etc/rc.local
-		sudo chmod root:root /etc/rc.local
-	fi
+        # check for rc.local - make one if not present
+        FILE="/etc/rc.local";
+        if test -f "$FILE"; then
+                sudo cp /etc/rc.local /etc/rc.local.backup;
+        else
+                sudo touch /etc/rc.local;
+                sudo chown root:root /etc/rc.local;
+        fi
+
     echo "sudo yiimp coin UNF delete" > /etc/rem_coins.sh
     echo "sudo yiimp coin DES delete" >> /etc/rem_coins.sh
     echo "sudo yiimp coin KUMA delete" >> /etc/rem_coins.sh
@@ -2233,20 +2233,20 @@ if [[ ("$rem_coins" == "y" || "$rem_coins" == "Y" || "$rem_coins" == "") ]]; the
     echo "sudo yiimp coin VITE delete" >> /etc/rem_coins.sh"
     echo "sudo yiimp coin DRGN delete" >> /etc/rem_coins.sh"
     echo "sudo yiimp coin BTM delete" >> /etc/rem_coins.sh"
-    echo "sudo yiimp coin QNT delete" >> /etc/rem_coins.sh"
-    echo "sudo yiimp coin ELF delete" >> /etc/rem_coins.sh"
-    echo "sudo yiimp coin BTU delete" >> /etc/rem_coins.sh"
-    echo "sudo yiimp coin DRGN delete" >> /etc/rem_coins.sh"
-    echo "sudo yiimp coin BTT delete" >> /etc/rem_coins.sh"
-    echo "sudo yiimp coin SPND delete" >> /etc/rem_coins.sh"
-    echo "sudo yiimp coin \$\$\$ delete" >> /etc/rem_coins.sh"
-    echo "sudo yiimp coin \$MINEZ delete" >> /etc/rem_coins.sh"
-    echo "sudo yiimp coin \$MINEW delete" >> /etc/rem_coins.sh"
-    echo "sudo yiimp coin \$MINE delete" >> /etc/rem_coins.sh"
-    echo "./etc/rem_coins.sh" >> /etc/rc.local
+    echo "sudo yiimp coin QNT delete" >> /etc/rem_coins.sh
+    echo "sudo yiimp coin ELF delete" >> /etc/rem_coins.sh
+    echo "sudo yiimp coin BTU delete" >> /etc/rem_coins.sh
+    echo "sudo yiimp coin DRGN delete" >> /etc/rem_coins.sh
+    echo "sudo yiimp coin BTT delete" >> /etc/rem_coins.sh
+    echo "sudo yiimp coin SPND delete" >> /etc/rem_coins.sh
+    echo "sudo yiimp coin \$\$\$ delete" >> /etc/rem_coins.sh
+    echo "sudo yiimp coin \$MINEZ delete" >> /etc/rem_coins.sh
+    echo "sudo yiimp coin \$MINEW delete" >> /etc/rem_coins.sh
+    echo "sudo yiimp coin \$MINE delete" >> /etc/rem_coins.sh
+    echo "./etc/rem_coins.sh >> /etc/rc.local
 	echo "cp /etc/rc.local.backup /etc/rc.local" >> /etc/rc.local
     echo
-    echo -e "Default coin removal completed!"
+    echo -e "Default coin removal completed!";
     echo
 fi
 
