@@ -19,6 +19,11 @@ Original Yiimp Installer : https://github.com/cryptopool-builders/multipool_orig
 
 USE THIS SCRIPT ON FRESH INSTALL UBUNTU Server 18.04 !
 
+Create your Pool user account:
+- adduser baddpool
+- adduser baddpool sudo
+- usermod -a -G sudo baddpool
+
 Connect on your VPS =>
 - apt update
 - apt upgrade
