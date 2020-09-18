@@ -17,12 +17,12 @@ Original Yiimp Installer : https://github.com/cryptopool-builders/multipool_orig
 
 ## Install script for yiimp on Ubuntu Server 18.04 (use Tpruvot's Yiimp)
 
-USE THIS SCRIPT ON FRESH INSTALL UBUNTU Server 18.04 -- do not use 20.x or 16.04!
+USE THIS SCRIPT ON FRESH INSTALL UBUNTU Server 18.04 -- do not use 20.x or 16.04! -- do not use root
 
 Create your Pool user account:
-- adduser baddpool
-- adduser baddpool sudo
-- usermod -a -G sudo baddpool
+- adduser mypooluser
+- adduser mypooluser sudo
+- usermod -a -G sudo mypooluser
 
 Prepare the environment and clone the git repositories:
 Run the debug version of the installer:
