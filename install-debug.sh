@@ -54,10 +54,12 @@
     sleep 3
 
 
-    #make post install script writeable
-    sudo chmod +x POST-install-fixes.sh
     #store current path 
     mypath=$(pwd)
+    #make post install script writeable
+    sudo chmod +x $mypath/POST-install-fixes.sh
+    #add fix for missing apt tools
+    sudo apt update && sudo apt install software-properties-common -y
     
     # Update package and Upgrade Ubuntu
     echo
