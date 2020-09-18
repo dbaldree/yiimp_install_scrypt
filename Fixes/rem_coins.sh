@@ -1105,7 +1105,7 @@ yiimp coin BTU delete
 yiimp coin DRGN delete
 yiimp coin BTT delete
 yiimp coin SPND delete
-yiimp coin \\$\\$\\$ delete
-yiimp coin \\$""MINEZ delete
-yiimp coin \\$""MINEW delete
-yiimp coin \\$""MINE delete
+yiimp coin \$\$\$ delete
+yiimp coin \$MINEZ delete
+yiimp coin \$MINEW delete
+yiimp coin \$MINE delete
