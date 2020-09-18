@@ -39,7 +39,7 @@ Run the debug version of the installer:
 
 Finish !
 - Go http://xxx.xxx.xxx.xxx or https://xxx.xxx.xxx.xxx (if you have chosen LetsEncrypt SSL). Enjoy !
-- Go http://xxx.xxx.xxx.xxx/AdminPanel or https://xxx.xxx.xxx.xxx/AdminPanel to access Panel Admin
+- Go http://xxx.xxx.xxx.xxx/site/AdminPanel or https://xxx.xxx.xxx.xxx/site/AdminPanel to access Panel Admin
 
 
 ###### :bangbang: **YOU MUST UPDATE THE FOLLOWING FILES :**
