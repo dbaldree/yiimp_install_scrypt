@@ -61,7 +61,7 @@ If you are issue after installation (nginx,mariadb... not found), use this scrip
 - Are you using a subdomain (mypoolx11.crypto.com)
 - Enter support email
 - Set stratum to AutoExchange
-- Your Public IP for admin access (Put your PERSONAL IP, NOT IP of your VPS --- go to google and search "my ip")
+- Your Public IP for admin access (Put your PERSONAL IP, NOT IP of your VPS - go to google and search 'my ip')
 - Install Fail2ban
 - Install UFW and configure ports
 - Install LetsEncrypt SSL
