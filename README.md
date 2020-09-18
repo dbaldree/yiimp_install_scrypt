@@ -29,9 +29,7 @@ Run the debug version of the installer:
 - apt update
 - apt upgrade
 - reboot
-- adduser pool (pool it's just an example...)
-- adduser pool sudo
-- su - pool
+- su - mypooluser
 - sudo apt -y install git
 - git clone https://github.com/synergytcs/yiimp_install_scrypt
 - cd yiimp_install_scrypt/
