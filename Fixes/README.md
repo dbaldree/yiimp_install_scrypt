@@ -4,3 +4,6 @@
 - yaamp/modules/site/result/wallet_miners_results.php
 - yaamp/ui/main.php
 - /var/stratum/rc.local 
+
+##wallet_miners_results.php
+- added worker name to the console view
