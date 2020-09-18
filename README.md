@@ -2,7 +2,7 @@
 # Yiimp_install_scrypt v1.1 (update SynergyTCS, 2020)
 
 Site : https://pool.baddcoin.org
-
+https://github.com/synergytcs/yiimp_install_scrypt
 Discord : T.B.C.
 
 Official Yiimp (used in this script for Yiimp Installation): https://github.com/tpruvot/yiimp
@@ -22,9 +22,9 @@ Connect on your VPS =>
 - adduser pool sudo
 - su - pool
 - sudo apt -y install git
-- git clone https://github.com/xavatar/yiimp_install_scrypt.git
+- git clone https://github.com/synergytcs/yiimp_install_scrypt
 - cd yiimp_install_scrypt/
-- bash install.sh (DO NOT RUN THE SCRIPT AS ROOT or SUDO)
+- bash install_debug.sh (DO NOT RUN THE SCRIPT AS ROOT or SUDO)
 - At the end, you MUST REBOOT to finalize installation...
 
 Finish !
