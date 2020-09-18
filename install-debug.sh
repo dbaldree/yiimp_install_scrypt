@@ -2239,10 +2239,10 @@ if [[ ("$rem_coins" == "y" || "$rem_coins" == "Y" || "$rem_coins" == "") ]]; the
     echo "sudo yiimp coin DRGN delete" >> /etc/rem_coins.sh
     echo "sudo yiimp coin BTT delete" >> /etc/rem_coins.sh
     echo "sudo yiimp coin SPND delete" >> /etc/rem_coins.sh
-    echo "sudo yiimp coin \$\$\$ delete" >> /etc/rem_coins.sh
-    echo "sudo yiimp coin \$MINEZ delete" >> /etc/rem_coins.sh
-    echo "sudo yiimp coin \$MINEW delete" >> /etc/rem_coins.sh
-    echo "sudo yiimp coin \$MINE delete" >> /etc/rem_coins.sh
+    echo "sudo yiimp coin \\$\\$\\$ delete" >> /etc/rem_coins.sh
+    echo "sudo yiimp coin \\$MINEZ delete" >> /etc/rem_coins.sh
+    echo "sudo yiimp coin \\$MINEW delete" >> /etc/rem_coins.sh
+    echo "sudo yiimp coin \\$MINE delete" >> /etc/rem_coins.sh
     echo "./etc/rem_coins.sh" >> /etc/rc.local
     echo "cp /etc/rc.local.backup /etc/rc.local" >> /etc/rc.local
     echo
