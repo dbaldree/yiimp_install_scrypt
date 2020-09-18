@@ -1,21 +1,18 @@
-# Yiimp_install_scrypt v0.2 (update Avril, 2020)
+*****************************************************************************************************
+# Yiimp_install_scrypt v1.1 (update SynergyTCS, 2020)
 
-Site : https://www.xavatar.com
+Site : https://pool.baddcoin.org
 
-Discord : https://discord.gg/zcCXjkQ
-
-TUTO Youtube (16.04 / 18.04 - Without SSL) : https://www.youtube.com/watch?v=qE0rhfJ1g2k
+Discord : T.B.C.
 
 Official Yiimp (used in this script for Yiimp Installation): https://github.com/tpruvot/yiimp
-
+Modified Yiimp Installer (used in this script): https://github.com/xavatar/yiimp_install_scrypt.git
 Original Yiimp Installer : https://github.com/cryptopool-builders/multipool_original_yiimp_installer
+*****************************************************************************************************
 
+## Install script for yiimp on Ubuntu Server 18.04 (use Tpruvot's Yiimp)
 
-***********************************
-
-## Install script for yiimp on Ubuntu Server 16.04 / 18.04 (use Tpruvot's Yiimp)
-
-USE THIS SCRIPT ON FRESH INSTALL UBUNTU Server 16.04 / 18.04 !
+USE THIS SCRIPT ON FRESH INSTALL UBUNTU Server 18.04 !
 
 Connect on your VPS =>
 - apt update
@@ -68,13 +65,16 @@ If you are issue after installation (nginx,mariadb... not found), use this scrip
 
 **This install script will get you 95% ready to go with yiimp. There are a few things you need to do after the main install is finished.**
 
-While I did add some server security to the script, it is every server owners responsibility to fully secure their own servers. After the installation you will still need to customize your serverconfig.php file to your liking, add your API keys, and build/add your coins to the control panel. 
+While I did add some server security to the script, it is every server owners responsibility to fully secure their own servers. After the installation you will still need to customise your serverconfig.php file to your liking, add your API keys, and build/add your coins to the control panel. 
 
 There will be several wallets already in yiimp. These have nothing to do with the installation script and are from the database import from the yiimp github. 
 
-If you need further assistance we have a small but growing discord channel at https://discord.gg/zcCXjkQ
+If you need further assistance we have a small but growing discord channel at https://discord.gg/T.B.C.
 
-If this helped you or you feel giving please donate : 
-- BTC Donation : 1C1hnjk3WhuAvUN6Ny6LTxPD3rwSZwapW7
-- BCH Donation : 1PqjApUdjwU9k4v1RDWf6XveARyEXaiGUz
-- ETH Donation : 0xc23E6902fF8Cd8878EDADE18Dc49B3505395F0a1
+If this helped you please consider the original developers and donate to their addresses.
+These guys did all the heavy lifting.
+(above links)
+
+If my version helped you please also consider my input:
+- BTC Donation : 3AUJNozgpk2LFiJA4hSqzLqeZvgfVRtdXd
+- ETH Donation : 0x7270e7f5de395c630cee546c6661dc0d56886f2e
