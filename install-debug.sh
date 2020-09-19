@@ -1136,7 +1136,9 @@ if [[ ("$rem_coins" == "y" || "$rem_coins" == "Y" || "$rem_coins" == "") ]]; the
                 sudo cp /etc/rc.local /etc/rc.local.backup;
         else
                 sudo touch /etc/rc.local.backup;
+                sudo chmod +x /etc/rc.local.backup;
                 sudo touch /etc/rc.local;
+                sudo chmod +x /etc/rc.local;
                 sudo chown root:root /etc/rc.local;
                 sudo chown root:root /etc/rc.local.backup;
         fi
