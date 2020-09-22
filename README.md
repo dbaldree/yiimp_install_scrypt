@@ -18,7 +18,7 @@ Modified Yiimp Installer based on the multipool Yiimp Installer:
 https://github.com/cryptopool-builders/multipool_original_yiimp_installer
 *****************************************************************************************************
 
-## Install script for yiimp on Ubuntu Server 18.04 (use Tpruvot's Yiimp)
+## Install script for yiimp on Ubuntu Server 18.04
 
 ###### :bangbang: **IMPORTANT** : 
 - USE THIS SCRIPT ON FRESH INSTALL UBUNTU Server 18.04 -- do not use 20.x or 16.04! -- do not use root
