@@ -34,10 +34,10 @@ Run the debug version of the installer:
 - reboot
 - su - mypooluser
 - sudo apt -y install git
-- git clone https://github.com/synergytcs/yiimp_install_scrypt
+- sudo git clone https://github.com/synergytcs/yiimp_install_scrypt
 - cd yiimp_install_scrypt/
 - sudo chmod +x install-debug.sh
-- bash install_debug.sh (DO NOT RUN THE SCRIPT AS ROOT or SUDO)
+- ./install_debug.sh (DO NOT RUN THE SCRIPT AS ROOT or SUDO)
 - At the end, you MUST REBOOT to finalise installation...
 
 Finish !
