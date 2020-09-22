@@ -1,9 +1,8 @@
 #!/bin/bash
 ################################################################################
-# Original Author:   crombiecrunch
-# Modified by : Xavatar (https://github.com/xavatar/yiimp_install_scrypt)
-# Web: https://www.xavatar.com    
-# This version Modified by : Synergy Technology Consultancy Services 
+# Modified from base : https://github.com/devaultcrypto/yiimp.git
+# (with thanks)
+# This version by : Synergy Technology Consultancy Services 
 # (https://github.com/synergytcs/yiimp_install_scrypt)
 # Web: https://pool.baddcoin.org    
 # Program:
@@ -12,7 +11,6 @@
 #   This version 1.1
 ################################################################################
     
-
     output() {
     printf "\E[0;33;40m"
     echo $1
@@ -329,7 +327,8 @@
     
     # Compil Blocknotify
     cd ~
-    git clone https://github.com/tpruvot/yiimp
+    #git clone https://github.com/tpruvot/yiimp
+    git clone https://github.com/devaultcrypto/yiimp.git
     cd $HOME/yiimp/blocknotify
     sudo sed -i 's/tu8tu5/'$blckntifypass'/' blocknotify.cpp
     sudo make
