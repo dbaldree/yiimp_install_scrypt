@@ -32,8 +32,7 @@ Create your Pool user account:
 
 Prepare the environment and clone the git repositories:
 Run the debug version of the installer:
-- apt update
-- apt upgrade
+- sudo apt update & apt upgrade -y
 - reboot
 - su - mypooluser
 - sudo apt -y install git
