@@ -7,13 +7,15 @@ https://github.com/synergytcs/yiimp_install_scrypt
 
 Discord : T.B.C.
 
+*****************************************************************************************************
+With great thanks to the original authors for all the heavy lifting.
 
-Yiimp (used in this script for Yiimp Installation): 
+CODE HISTORY:
+The original base by TPRUVOT: https://github.com/tpruvot/yiimp)
+The fork used in this script for Yiimp Installation: https://github.com/devaultcrypto/yiimp.git
 
-Modified Yiimp Installer (used and adapted in this script): https://github.com/xavatar/yiimp_install_scrypt.git
-
-Original Yiimp Installer : https://github.com/cryptopool-builders/multipool_original_yiimp_installer
-
+Modified Yiimp Installer based on the multipool Yiimp Installer: 
+https://github.com/cryptopool-builders/multipool_original_yiimp_installer
 *****************************************************************************************************
 
 ## Install script for yiimp on Ubuntu Server 18.04 (use Tpruvot's Yiimp)
