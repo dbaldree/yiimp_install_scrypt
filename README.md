@@ -55,7 +55,7 @@ Finish !
 ###### :bangbang: **IMPORTANT** : 
 
 - The configuration of yiimp is through the web console and isn't too challenging. 
-- Backend code changes are normally required for cloned coins to function (yiimp + stratum + blocknotify) and requires detailed knowledge of linux and they core crypto chosen particularly supported rpc objects.
+- Backend code changes are normally required for cloned coins to function (yiimp + stratum + blocknotify) and requires detailed knowledge of linux and the crypto core releases chosen, particularly around the supported rpc objects.
 - Your mysql information (login/Password) is saved in **~/.my.cnf**
 
 ***********************************
