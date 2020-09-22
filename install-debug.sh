@@ -1,13 +1,13 @@
 #!/bin/bash
 ################################################################################
 # Modified from base : https://github.com/devaultcrypto/yiimp.git
-# (with thanks)
+# (with kudos)
 # This version by : Synergy Technology Consultancy Services 
 # (https://github.com/synergytcs/yiimp_install_scrypt)
 # Web: https://pool.baddcoin.org    
 # Program:
 #   Install yiimp on Ubuntu 16.04/18.04 running Nginx, MariaDB, and php7.3
-#   Based on Xavatar v0.2 (update Avril, 2020) (with kudos)
+#   Installer Based on Xavatar v0.2 (update Avril, 2020) (with kudos)
 #   This version 1.1
 ################################################################################
     
