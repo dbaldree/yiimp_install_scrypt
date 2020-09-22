@@ -7,7 +7,8 @@ https://github.com/synergytcs/yiimp_install_scrypt
 
 Discord : T.B.C.
 
-Official Yiimp (used in this script for Yiimp Installation): https://github.com/tpruvot/yiimp
+
+Yiimp (used in this script for Yiimp Installation): 
 
 Modified Yiimp Installer (used and adapted in this script): https://github.com/xavatar/yiimp_install_scrypt.git
 
