@@ -1,4 +1,6 @@
-# The following customisations where necessary for a fork of BITCOIN.
+# The following customisations where necessary for a fork of BITCOIN v0.20.
+## this is due to RPC changes and Segwit activation.
+**Important: Bitcoin core and any coins using v0.20+ must run xxxxcoind with -addresstype=legacy switch.**
 
 #######CUSTOMISED YIIMP FILES ###################
 * STYLE/THEME
