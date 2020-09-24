@@ -1,13 +1,14 @@
 Yiimp Install Scrypt v1.1 // 19.09.2020
 
-Information =>
+Changes / Information =>
 * 16.04 deprecated. Works with Ubuntu Server 18.04.
 * Add script to remove all coins as part of menu.
-
-Fix =>
-* Fix add worker names to dashboard.
-
-Change =>
 * Installer modified (new supported features - some corrections with apt).
 * Removed non-debug enabled installer as really not a good idea to run silent.
 * Tidied up all texts like README etc.
+* Added example coin (post-install) configuration steps (based on latest 0.20 BTC fork)
+
+Fixes =>
+* Add worker names to dashboard.
+* Fix apt issues (brought dependancies up-to-date)
+
