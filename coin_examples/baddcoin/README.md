@@ -9,6 +9,7 @@ In YIMMP coin configuration you just need to enable/disable the following:
 -Has submitblock --- YES  
 -Txmessage --- NO  
 -Use Segwit --- YES  
+-Type of work --- POW
 
 #######CUSTOMISED YIIMP FILES ###################
 * STYLE/THEME
