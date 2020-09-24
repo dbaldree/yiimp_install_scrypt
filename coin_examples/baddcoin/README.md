@@ -25,4 +25,5 @@
 should be just above the line that reads:  
 **$template = $remote->getblocktemplate('{}');** 
 
-
+# DISCORD CHANNEL
+**Highly useful channel for all things YIMMP: https://discordapp.com/invite/zcCXjkQ**
