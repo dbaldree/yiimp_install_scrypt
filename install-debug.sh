@@ -1154,6 +1154,26 @@ fi
     echo -e "$GREEN Done...$COL_RESET"
     sleep 3
 
+    # Adding Workers to dashboard fix
+    echo
+    echo -e "$CYAN => Adding Workers to dashboard fix $COL_RESET"
+    echo
+        FILE="$mypath/Fixes/wallet_miners_results.php";
+        FILE2="/var/web/yaamp/modules/site/result/wallet_miners_results.php";
+        FILE3="/var/web/yaamp/modules/site/result/wallet_miners_results.php.backup";
+        if test -f "$FILE2"; then
+                echo "-- taking a backup of the original file...";
+                sudo cp "$FILE2" "$FILE3";
+                echo "-- copying modified file to Yiimp...";
+                sudo cp "$FILE" "$FILE2";
+        else                
+                echo "-- copying modified file to Yiimp...";
+                sudo cp "$FILE" "$FILE2";
+        fi
+    echo
+    echo -e "$GREEN Done...$COL_RESET"
+    sleep 3
+
     echo
     echo
     echo
