@@ -1,6 +1,6 @@
 # The following customisations where necessary for a fork of BITCOIN.
 
-#######CUSTOMISED FILE copies ###################
+#######CUSTOMISED YIIMP FILES ###################
 * STYLE/THEME
 - /var/web/yiimp/index.php | customising the look and feel of console with coin logos and headers
 - /var/web/yaamp/modules/site/index.php | customising the look and feel of console with coin logos and headers
