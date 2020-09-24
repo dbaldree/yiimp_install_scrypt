@@ -1,7 +1,7 @@
 # The following customisations where necessary for a fork of BITCOIN v0.20.
 ## this is due to RPC changes and Segwit activation.
 **Important:**  
-Bitcoin core and any coins using v0.18+ must run xxxxcoind with -addresstype=legacy switch.  
+Bitcoin core and any forked coins using v0.18+ must run xxxxcoind with -addresstype=legacy switch.  
 Mining with BECH32 segwit addresses is not yet possible you must generate a legacy address for the pool to use.  
 You do not need to run –deprecatedrpc=accounts.
 
