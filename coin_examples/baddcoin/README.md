@@ -9,8 +9,8 @@
 
 * COIN FIXES
 - /var/web/yaamp/modules/site/result/wallet_miners_results.php |  adding of worker name | script copies the file from Fixes folder.
-- /var/web/yaamp/core/backend/payment.php | line 57 | add:  
-**$coin->symbol == 'XXX'** 
+- /var/web/yaamp/core/backend/payment.php | line 57 | add an extra '||xxxx' :  
+**|| $coin->symbol == 'XXX'** 
 - /var/web/yaamp/modules/site/coin_results.php | line 300 | add:  
 **if ($coin->symbol=="XXX") $account = "*";**  
   (fixes error 'error -8: label argument must be a valid label')  
