@@ -4,11 +4,11 @@
 Bitcoin core and any forked coins using v0.18+ must run xxxxcoind with -addresstype=legacy switch.  
 Mining with BECH32 segwit addresses is not yet possible you must generate a legacy address for the pool to use.  
 You do not need to run –deprecatedrpc=accounts and in 0.20 you can't any its removed.
-In YIMMP coin configuration you just need to enable/disable the following:
--Has Getinfo --- NO
--Has submitblock --- YES
--Txmessage --- NO
--Use Segwit --- YES
+In YIMMP coin configuration you just need to enable/disable the following:  
+-Has Getinfo --- NO  
+-Has submitblock --- YES  
+-Txmessage --- NO  
+-Use Segwit --- YES  
 
 #######CUSTOMISED YIIMP FILES ###################
 * STYLE/THEME
