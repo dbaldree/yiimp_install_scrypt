@@ -38,6 +38,7 @@ should be just above the line that reads:
 **If (!coind->height)**  
 // change to  
 **if (coind->height<0)**  
+// don't forget to revert it back once you've got a couple of blocks mined.
 
 # DISCORD CHANNEL
 **Highly useful channel for all things YIMMP: https://discordapp.com/invite/zcCXjkQ**
