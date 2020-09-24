@@ -5,7 +5,6 @@ Site : https://pool.baddcoin.org
 
 https://github.com/synergytcs/yiimp_install_scrypt
 
-Discord : T.B.C.
 
 *****************************************************************************************************
 With great thanks to the original authors for all the heavy lifting.
