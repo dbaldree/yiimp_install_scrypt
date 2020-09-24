@@ -14,6 +14,8 @@
 - /var/web/yaamp/modules/site/coin_results.php | line 300 | add:  
 **if ($coin->symbol=="XXX") $account = "*";**  
   (fixes error 'error -8: label argument must be a valid label')  
+  should be just below the line that reads:  
+**if ($ETH) $account = $coin->master_wallet;**  
 - /web/yaamp/core/backend/coins.php | line 130 | add:  
 **if($coin->symbol == 'EMC2')  
             $template = $remote->getblocktemplate('{"rules":["segwit"]}');  
