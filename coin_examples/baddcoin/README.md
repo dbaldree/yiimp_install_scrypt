@@ -9,12 +9,15 @@
 
 * COIN FIXES
 - /var/web/yaamp/modules/site/result/wallet_miners_results.php |  adding of worker name | script copies the file from Fixes folder.
-- /var/web/yaamp/core/backend/payment.php | line 57 | add:  $coin->symbol == 'XXX'
-- /var/web/yaamp/modules/site/coin_results.php | line 300 | add: if ($coin->symbol=="XXX") $account = "*"; | fixes error 'error -8: label argument must be a valid label'.
+- /var/web/yaamp/core/backend/payment.php | line 57 | add:  
+**$coin->symbol == 'XXX'**
+- /var/web/yaamp/modules/site/coin_results.php | line 300 | add: 
+**if ($coin->symbol=="XXX") $account = "*";** 
+  (fixes error 'error -8: label argument must be a valid label')
 - /web/yaamp/core/backend/coins.php | line 130 | add: 
-if($coin->symbol == 'EMC2')
+**if($coin->symbol == 'EMC2')
             $template = $remote->getblocktemplate('{"rules":["segwit"]}');
-            else
-#should be just above 
-$template = $remote->getblocktemplate('{}');
+            else**
+should be just above the line that reads:
+**$template = $remote->getblocktemplate('{}');**
 
