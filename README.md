@@ -82,7 +82,7 @@ After the installation you will still need to customise your serverconfig.php fi
 
 If you did not chose the option to remove default coins there will be a long list of coins visible in the console. These have nothing to do with the installation script and are from the database import from the yiimp github. 
 
-If you need further assistance we have a small but growing discord channel at https://discord.gg/T.B.C.
+If you need further assistance there is a thriving community on discord -- feel free to join this discord channel at https://discordapp.com/invite/zcCXjkQ
 
 If this helped you please consider the original developers and donate to their addresses.
 These guys did all the heavy lifting.
