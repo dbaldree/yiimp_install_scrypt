@@ -10,3 +10,4 @@ Fix =>
 Change =>
 * Installer modified (new supported features - some corrections with apt).
 * Removed non-debug enabled installer as really not a good idea to run silent.
+* Tidied up all texts like README etc.
