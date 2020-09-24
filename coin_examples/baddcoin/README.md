@@ -1,4 +1,8 @@
 # The following customisations where necessary for a fork of BITCOIN v0.20.
+If this helps you with getting your coin up and running please consider a small donation (greatfully received):  
+BTC Donation : 3AUJNozgpk2LFiJA4hSqzLqeZvgfVRtdXd  
+ETH Donation : 0x7270e7f5de395c630cee546c6661dc0d56886f2e  
+
 ## this is due to RPC changes and Segwit activation.
 **Important:**  
 Bitcoin core and any forked coins using v0.18+ must run xxxxcoind with -addresstype=legacy switch.  
