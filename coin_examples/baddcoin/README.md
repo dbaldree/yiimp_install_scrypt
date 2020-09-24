@@ -33,6 +33,11 @@ In YIMMP coin configuration you just need to enable/disable the following:
             else**  
 should be just above the line that reads:  
 **$template = $remote->getblocktemplate('{}');** 
+- STRATUM: If you are on Genesis block i.e. height = 0 you must edit coind.cpp in stratum folder and recompile.  
+- /var/stratum/build/coind.cpp  
+**If (!coind->height)**  
+// change to  
+**if (coind->height<0)**  
 
 # DISCORD CHANNEL
 **Highly useful channel for all things YIMMP: https://discordapp.com/invite/zcCXjkQ**
